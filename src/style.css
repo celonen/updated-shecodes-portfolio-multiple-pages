@@ -52,6 +52,10 @@ p {
   color: white;
 }
 
+.primary-link:hover {
+  color: white;
+}
+
 .secondary-link {
   border-radius: 4px;
   padding: 20px 15px;
@@ -107,17 +111,10 @@ p {
     font-size: 22px;
   }
 
-  img {
+  .project-link {
     display: block;
-  }
-
-  .mb-3 {
-    font-size: 39px;
-  }
-
-  .mt-5 {
-    font-size: 15px;
-    padding: 10px;
+    text-align: center;
+    margin: 0 20px;
   }
 
   .email-link {
