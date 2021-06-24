@@ -86,3 +86,41 @@ p {
 .email-link:hover {
   text-decoration: underline;
 }
+
+@media (max-width: 768px) {
+  h1,
+  h2,
+  h3,
+  p {
+    text-align: center;
+  }
+
+  h1 {
+    font-size: 60px;
+  }
+
+  h2 {
+    font-size: 45px;
+  }
+
+  h3 {
+    font-size: 22px;
+  }
+
+  img {
+    display: block;
+  }
+
+  .mb-3 {
+    font-size: 39px;
+  }
+
+  .mt-5 {
+    font-size: 15px;
+    padding: 10px;
+  }
+
+  .email-link {
+    text-align: center;
+  }
+}
